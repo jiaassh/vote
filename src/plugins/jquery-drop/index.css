@@ -1,0 +1,189 @@
+
+li {
+	list-style: none outside none;
+}
+
+
+
+.box {
+	width: 100%;
+	height: 100%;
+	position: absolute!important;
+	top:0;
+	left: 0;
+	z-index: 1;
+	
+}
+
+i.hander {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+
+.resizable img {
+	width: 100%;
+	height: 100%;
+}
+
+.resizable {
+	left: 50px;
+	top: 50px;
+	padding: 5px !important;
+	min-height: 5px !important;
+	height: 5px!important;
+	min-width: 200px;
+}
+
+.resizable span {
+	font-size: 100%;
+}
+
+.ui-widget-content {
+	border: none;
+}
+
+.ui-icon,
+.ui-widget-content .ui-icon {
+	display: none !important;
+}
+
+.handle {
+	float: left;
+	width: 300px;
+	height: 560px;
+	padding-left: 50px;
+	padding-top: 50px;
+	background: #ccc;
+}
+
+#box {
+	float: left;
+}
+
+.change-right {
+	position: absolute;
+	left: 0;
+	top: -46px;
+	width: 100%;
+	height: 47px;
+	display: none;
+}
+
+.change-left {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 100%;
+	height: 47px;
+	display: none;
+}
+
+
+.change-lashen{
+	display: none;
+}
+.change-lashen-wrap{
+	right: -28px;
+	top: -7px;
+	width:30px;
+	height:30px;
+}
+.change-lashen-handle {
+	background: url(img/lashen.png) no-repeat ;
+}
+
+
+.change-left-wrap,.change-right-wrap{
+	right: 0px;
+	width:40px;
+	height:40px;
+}
+
+.change-lashen-wrap,.change-left-wrap,.change-right-wrap{
+	position: absolute;
+	border-radius: 40px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 0px 5px 0px rgba(17,74,212,0.27);
+	
+}
+
+.change-left-wrap{
+	top: 13px;
+}
+.change-right-wrap{
+	bottom: 13px;
+}
+
+.point-delete{
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	background: url(img/delete.png) no-repeat ;
+	display: none;
+}
+.change-delete {
+	position: absolute;
+	left: -10px;
+	top: -13px;
+	background: url(img/delete.png) no-repeat ;
+	display: none;
+}
+
+
+.change-left-handle {
+	background: url(img/left.png) no-repeat ;
+}
+
+.change-right-handle {
+	background: url(img/right.png) no-repeat ;
+}
+
+.change-left-handle img,
+.change-right-handle img {
+	width: 100%;
+	height: 100%;
+}
+
+.change-lashen-handle,.point-delete,.change-delete,.change-left-handle,.change-right-handle {
+	width: 20px;
+	height: 20px;
+	background-size:20px 20px;
+}
+
+/* iconfont */
+.icon-gzwl,.icon-gzwl{
+	font-size: 14px!important;
+}
+
+.resizable .text,.resizable .point-text{
+	padding: 5px 10px;
+	background:rgba(53,141,255,1);
+	border-radius:4px;
+	font-size:14px;
+	color:rgba(255,255,255,1);
+	white-space : normal nowrap;
+	position: absolute;
+	
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+.resizable .text{
+	bottom: -40px;
+	left: 20%;
+}
+.resizable .point-text{
+	bottom: -70px;
+	left:-5%;
+}
+

@@ -1,0 +1,195 @@
+/* base */
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+
+/* 公共配置 */
+.pd-20 {
+	padding: 20px;
+}
+.pdt-10{
+	padding-top: 10px;
+}
+.pdt-20 {
+	padding: 20px;
+}
+
+.mg-20 {
+	margin: 20px;
+}
+
+.mgt-0 {
+	margin-top: 0px;
+}
+.mgt-10 {
+	margin-top: 10px;
+}
+.mgt-20 {
+	margin-top: 20px;
+}
+.mgt-30 {
+	margin-top: 30px;
+}
+
+.ml-0{
+	margin-left: 0;
+}
+.mgl-10 {
+	margin-left: 10px;
+}
+
+.mgl-20 {
+	margin-left: 20px;
+}
+
+.mgl-30 {
+	margin-left: 30px;
+}
+
+.mgl-40 {
+	margin-left: 40px;
+}
+
+.p-r {
+	position: relative;
+}
+
+.t-0{
+	top: 0;
+}
+
+
+.wp-50{
+	width: 50%;
+}
+.wp-100 {
+	width: 100%;
+}
+
+.hp-100 {
+	height: 100%;
+}
+
+.tips__mgt-10{
+	margin-top: 10px!important;
+	color: #358DFF!important;
+	font-size: 14px!important;
+}
+
+.d-f{
+	display: flex;
+}
+.jc-c{
+	justify-content: center;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.ai-c{
+	align-items: center;
+}
+.fd-c{
+	flex-direction: column;
+}
+
+/* flex定位 */
+.f-1{
+	flex: 1;
+}
+
+.fw-w{
+	flex-wrap:wrap;
+}
+
+.jc-fs{
+	justify-content:flex-start
+}
+
+.d-f__jc-c{
+	display: flex;
+	justify-content: center;
+}
+.d-f__jc-sb{
+	display: flex;
+	justify-content: space-between;
+}
+
+.d-f__jc-sb__ai-c{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.d-f__jc-c__ai-c{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.d-f__jc-c__fd-c__ai-c{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.d-f__jc-sb__fd-c__ai-c{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.w-120{
+	width: 120px;
+}
+.w-186{
+	width: 186px;
+}
+.w-240{
+	width:240px !important;
+	box-sizing: border-box;
+}
+.bg-fff{
+	background: #fff;
+}
+.c-fff{
+	color: #fff;
+}
+.w-340{
+	width:340px !important;
+	box-sizing: border-box;
+}
+.mgl-50{
+	margin-left: 50px
+}
+.w-h-70{
+	height: 70px;
+}
+.t-center{
+	text-align: center
+}
+.mgt-13{
+	margin-top: 13px;
+}
+.f-l{
+	float: left;
+}
+.f-r{
+	float: right;
+}
+.mgr-10{
+	margin-right: 10px;
+}
+.mgr-20{
+	margin-right: 20px;
+}
+.mgr-40{
+	margin-right: 40px;
+}
+.mgr-30{
+	margin-right: 30px;
+}
