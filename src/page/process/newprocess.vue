@@ -10,7 +10,7 @@
       <!-- 步骤卡片 -->
       <progressCard></progressCard>
       <!-- 新增投票表单 基本信息 -->
-      <addVoteForm></addVoteForm>
+      <!-- <addVoteForm></addVoteForm> -->
        <!-- 新增投票 选项信息 -->
       <optionInfo></optionInfo>
   </div>
