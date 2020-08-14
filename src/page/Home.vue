@@ -700,17 +700,17 @@ export default {
         if (newVal.path == "/process/processlist") {
           switch (newVal.query.listpagetype) {
             case "wait":
-              this.title = "工作流程 / 待办事宜";
+              this.title = "投票管理 / 投票列表";
               this.actIndex = "4-2";
               localStorage.setItem("actIndex", this.actIndex);
               break;
             case "already":
-              this.title = "工作流程 / 已办事宜";
+              this.title = "投票管理 / 投票记录";
               this.actIndex = "4-3";
               localStorage.setItem("actIndex", this.actIndex);
               break;
             case "end":
-              this.title = "工作流程 / 办结事宜";
+              this.title = "投票管理 / 投票统计";
               this.actIndex = "4-4";
               localStorage.setItem("actIndex", this.actIndex);
               break;
@@ -746,7 +746,7 @@ export default {
               this.title = "工作流程 / 流程查询";
               break;
             default:
-              this.title = "工作流程 / 新建流程";
+              this.title = "投票管理 / 新增投票";
               break;
           }
         } else {

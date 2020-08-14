@@ -12,7 +12,7 @@ Vue.use(Router)
 
 let router = new Router({
 	routes: [{
-		path: '/login',
+		path: '*',
 		component: Login
 	},
 	{

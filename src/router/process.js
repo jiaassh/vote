@@ -3,7 +3,7 @@ export default [
     path: '/process/newprocess',
     component: () => import('@/page/process/newprocess.vue'),
     meta: {
-      title: '工作流程 / 新建流程'
+      title: '投票管理 / 新增投票'
     }
   },
   {
